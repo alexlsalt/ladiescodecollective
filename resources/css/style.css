@@ -88,6 +88,11 @@ header h1 {
   margin: 0 auto;
 }
 
+.heading_slide {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 nav {
   text-align: center;
   margin: 2rem;
@@ -122,3 +127,21 @@ nav {
   width: 50%;
 }
 
+
+
+/* SCREENS < 1000px */
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  section img {
+    width: 90%;
+  }
+}
