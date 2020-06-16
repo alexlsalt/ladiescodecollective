@@ -123,10 +123,6 @@ nav {
   width: 40%;
 }
 
-.cohort img {
-  width: 50%;
-}
-
 
 
 /* SCREENS < 1000px */
@@ -142,6 +138,14 @@ nav {
   }
 
   section img {
+    width: 90%;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .right {
     width: 90%;
   }
 }
