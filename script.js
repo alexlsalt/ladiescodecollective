@@ -15,4 +15,7 @@ setInterval(() => {
 
 // PREVENT IMAGE DRAGGING
 
-document.querySelector(".heading_slide").setAttribute("draggable", false);
+let images = document.querySelectorAll('.image');
+images.forEach(image => {
+  image.setAttribute("draggable", false);
+});
