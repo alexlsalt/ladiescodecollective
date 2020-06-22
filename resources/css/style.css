@@ -118,6 +118,51 @@ nav ul {
   width: 100%;
 }
 
+#podcast_banner {
+  display: none; 
+  position: absolute;
+  background: #feef34;
+  width: 70%;
+  top: 5%;
+  left: 15%;
+}
+
+#podcast_banner img {
+  max-width: 60%; 
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.cross {
+  text-align: right;
+  color: red;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.cross:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1057px) {
+  #podcast_banner {
+    width: 80%;
+    left: 10%;
+  }
+
+  #podcast_banner img {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 937px) {
+  #podcast_banner {
+    width: 90%;
+    left: 5%;
+  }
+}
+
 /* TAGLINE SECTION */
 
 .tagline {
