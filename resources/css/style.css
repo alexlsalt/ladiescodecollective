@@ -124,6 +124,7 @@ nav ul {
   width: 70%;
   top: 5%;
   left: 15%;
+  box-shadow: 12px 12px 2px 1px rgba(113, 215, 249, .5);;
 }
 
 #podcast_banner img {
