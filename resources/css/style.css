@@ -203,6 +203,16 @@ nav ul {
   }
 }
 
+@media only screen and (max-width: 545px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
+
 /* FOOTER */
 
 footer {
