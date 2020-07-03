@@ -30,9 +30,9 @@ images.forEach(image => {
 
 // PODCAST MODAL APPEAR & DISAPPEAR
 
-// let cross = document.querySelector('.cross');
-// let podcastModal = document.querySelector('#podcast_banner');
-// cross.addEventListener('click', e => {
-//   console.log(e.target.parentNode);
-//   e.target.parentNode.style.display = 'none';
-// });
+let cross = document.querySelector('.cross');
+let podcastModal = document.querySelector('#podcast_banner');
+cross.addEventListener('click', e => {
+  console.log(e.target.parentNode);
+  e.target.parentNode.style.display = 'none';
+});
