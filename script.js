@@ -1,9 +1,9 @@
 // NAV BUTTON ACTIONS
 
-document.querySelector('#nav_podcast').addEventListener('click', e => {
-  e.preventDefault();
-  document.querySelector('#podcast_banner').style.display = 'block';
-})
+// document.querySelector('#nav_podcast').addEventListener('click', e => {
+//   e.preventDefault();
+//   document.querySelector('#podcast_banner').style.display = 'block';
+// })
 
 
 // HEADER SLIDESHOW
