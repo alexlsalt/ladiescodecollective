@@ -119,6 +119,7 @@ nav ul {
 }
 
 #podcast_banner {
+  display: none;
   position: absolute;
   background: #feef34;
   width: 70%;
@@ -236,3 +237,6 @@ footer a:hover {
   background: #71d7f9;
   color: #000;
 }
+
+/* PODCAST PAGE */
+

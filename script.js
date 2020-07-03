@@ -1,18 +1,18 @@
 // NAV BUTTON ACTIONS
 
-document.querySelector('#nav_podcast').addEventListener('click', e => {
-  e.preventDefault();
-  document.querySelector('#podcast_banner').style.display = 'block';
-})
+// document.querySelector('#nav_podcast').addEventListener('click', e => {
+//   e.preventDefault();
+//   document.querySelector('#podcast_banner').style.display = 'block';
+// })
 
 // PODCAST MODAL APPEAR & DISAPPEAR
 
-let cross = document.querySelector('.cross');
-let podcastModal = document.querySelector('#podcast_banner');
-cross.addEventListener('click', e => {
-  console.log(e.target.parentNode);
-  e.target.parentNode.style.display = 'none';
-});
+// let cross = document.querySelector('.cross');
+// let podcastModal = document.querySelector('#podcast_banner');
+// cross.addEventListener('click', e => {
+//   console.log(e.target.parentNode);
+//   e.target.parentNode.style.display = 'none';
+// });
 
 
 // HEADER SLIDESHOW
