@@ -1,0 +1,45 @@
+a {
+  color: #feef34;
+}
+
+section {
+  box-shadow: 12px 12px 2px 1px rgb(113, 215, 249, 0.2);
+}
+
+.podcast-player {
+  width: 80%;
+}
+
+.episode {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode span {
+  width: 80%;
+  padding-top: 1rem;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.episode a {
+  font-weight: 700;
+  color: lightpink;
+  border-bottom: 3px solid #feef34;
+  padding-bottom: 0.25rem;
+  transition: background-color 500ms ease-out;
+}
+
+.episode a:hover {
+  color: #fff;
+  background-color: #feef34;
+}
+
+
+.episode.one {
+  margin-top: 1.5rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
