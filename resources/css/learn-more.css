@@ -1,0 +1,9 @@
+section {
+  flex-direction: column;
+}
+
+a {
+  width: 95%;
+  margin: 0.7rem;
+}
+
