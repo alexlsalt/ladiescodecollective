@@ -2,8 +2,24 @@ section {
   flex-direction: column;
 }
 
-a {
+.links a {
   width: 95%;
   margin: 0.7rem;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.icons img {
+  width: 3rem;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.icons img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
