@@ -1,0 +1,71 @@
+.cohort {
+  border: 3px solid #feef34;
+  height: auto;
+  box-shadow: 12px 12px 2px 1px rgba(254, 239, 52, 0.6);
+  flex-direction: column;
+  text-align: center;
+}
+
+.yellow_underline {
+  padding-bottom: 0.3rem; 
+  border-bottom: 4px solid #feef34;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Open sans', sans-serif;
+}
+
+h4, span {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+img:hover {
+  opacity: 0.6;
+}
+
+.button {
+  color: #000;
+  background-color: #feef34;
+  border: none;
+  box-shadow: 4px 4px gray;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  padding: 0.9rem;
+  margin: 0 1.2rem;
+}
+
+.button:hover {
+  background-color: gray;
+  color: #fff;
+  box-shadow: 4px 4px #feef34;
+  cursor: pointer;
+}
+
+
+.about-me img {
+  width: 60%;
+}
+
+.next_cohort {
+  padding: 2rem 5rem; 
+  border: 4px solid #71d7f9;
+}
