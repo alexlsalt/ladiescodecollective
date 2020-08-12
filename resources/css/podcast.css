@@ -1,3 +1,9 @@
+h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #feef34;
+}
+
+
 a {
   color: #feef34;
 }
