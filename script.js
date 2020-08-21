@@ -37,3 +37,39 @@ images.forEach(image => {
   image.setAttribute("draggable", false);
 });
 
+
+// Mobile Nav functionality (hamburger icon on-click)
+
+const menuIcon = document.querySelector('.hamburger-icon');
+const exitIcon = document.querySelector('.exit-icon');
+
+menuIcon.addEventListener('click', () => {
+
+  document.querySelector('#nav-mobile').style.display = 'block';
+  exitIcon.style.display = 'block';
+  menuIcon.style.display = 'none';
+
+  window.addEventListener('resize', () => {
+
+    if (window.innerWidth > 545) {
+      document.querySelector('#nav-desktop').style.display = 'flex';
+      document.querySelector('#nav-mobile').style.display = 'none';
+      menuIcon.style.display = 'none';
+      exitIcon.style.display = 'none';
+    } else {
+      menuIcon.style.display = 'block';
+      document.querySelector('#nav-desktop').style.display = 'none';
+  
+    }
+  
+  });
+  
+  
+});
+
+exitIcon.addEventListener('click', () => {
+  document.querySelector('#nav-mobile').style.display = 'none';
+  exitIcon.style.display = 'none';
+  menuIcon.style.display = 'block';
+});
+
