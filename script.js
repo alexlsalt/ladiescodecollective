@@ -45,7 +45,7 @@ const exitIcon = document.querySelector('.exit-icon');
 
 menuIcon.addEventListener('click', () => {
 
-  document.querySelector('#nav-mobile').style.display = 'block';
+  document.querySelector('#nav-mobile').style.display = 'flex';
   exitIcon.style.display = 'block';
   menuIcon.style.display = 'none';
 
