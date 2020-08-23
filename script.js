@@ -72,4 +72,3 @@ exitIcon.addEventListener('click', () => {
   exitIcon.style.display = 'none';
   menuIcon.style.display = 'block';
 });
-
