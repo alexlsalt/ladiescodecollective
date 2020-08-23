@@ -43,6 +43,12 @@ images.forEach(image => {
 const menuIcon = document.querySelector('.hamburger-icon');
 const exitIcon = document.querySelector('.exit-icon');
 
+function hideNavMenu() {
+  document.querySelector('#nav-mobile').style.display = 'none';
+  exitIcon.style.display = 'none';
+  menuIcon.style.display = 'block';
+};
+
 menuIcon.addEventListener('click', () => {
 
   document.querySelector('#nav-mobile').style.display = 'flex';
@@ -63,12 +69,12 @@ menuIcon.addEventListener('click', () => {
     }
   
   });
-  
-  
 });
 
 exitIcon.addEventListener('click', () => {
-  document.querySelector('#nav-mobile').style.display = 'none';
-  exitIcon.style.display = 'none';
-  menuIcon.style.display = 'block';
+  hideNavMenu();
+});
+
+window.addEventListener('wheel', () => {
+  hideNavMenu();
 });
