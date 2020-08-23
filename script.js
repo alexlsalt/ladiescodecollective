@@ -75,6 +75,6 @@ exitIcon.addEventListener('click', () => {
   hideNavMenu();
 });
 
-window.addEventListener('wheel', () => {
+window.addEventListener('scroll', () => {
   hideNavMenu();
 });
