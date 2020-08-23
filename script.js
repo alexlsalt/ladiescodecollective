@@ -44,9 +44,11 @@ const menuIcon = document.querySelector('.hamburger-icon');
 const exitIcon = document.querySelector('.exit-icon');
 
 function hideNavMenu() {
-  document.querySelector('#nav-mobile').style.display = 'none';
-  exitIcon.style.display = 'none';
-  menuIcon.style.display = 'block';
+  if (document.querySelector('#nav-mobile').style.display == 'flex') {
+    document.querySelector('#nav-mobile').style.display = 'none';
+    exitIcon.style.display = 'none';
+    menuIcon.style.display = 'block';
+  }
 };
 
 menuIcon.addEventListener('click', () => {
