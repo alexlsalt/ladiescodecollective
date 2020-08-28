@@ -1,20 +1,3 @@
-// NAV BUTTON ACTIONS
-
-// document.querySelector('#nav_podcast').addEventListener('click', e => {
-//   e.preventDefault();
-//   document.querySelector('#podcast_banner').style.display = 'block';
-// })
-
-// PODCAST MODAL APPEAR & DISAPPEAR
-
-// let cross = document.querySelector('.cross');
-// let podcastModal = document.querySelector('#podcast_banner');
-// cross.addEventListener('click', e => {
-//   console.log(e.target.parentNode);
-//   e.target.parentNode.style.display = 'none';
-// });
-
-
 // HEADER SLIDESHOW
 
 let num = 0;
@@ -80,3 +63,23 @@ exitIcon.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
   hideNavMenu();
 });
+
+
+
+
+
+// NAV BUTTON ACTIONS
+
+// document.querySelector('#nav_podcast').addEventListener('click', e => {
+//   e.preventDefault();
+//   document.querySelector('#podcast_banner').style.display = 'block';
+// })
+
+// PODCAST MODAL APPEAR & DISAPPEAR
+
+// let cross = document.querySelector('.cross');
+// let podcastModal = document.querySelector('#podcast_banner');
+// cross.addEventListener('click', e => {
+//   console.log(e.target.parentNode);
+//   e.target.parentNode.style.display = 'none';
+// });
