@@ -2,6 +2,12 @@
 
 const episodes = [
   {
+    title: 'Working Slower to Achieve Your Coding Goals Faster',
+    id: 5245168,
+    url: 'https://www.buzzsprout.com/1184462/5245168-lcc-9-working-slower-to-achieve-your-coding-goals-faster.js?container_id=buzzsprout-player-5245168&player=small',
+    description: "Lately I've been playing around with the concept of time in my daily work and studying.<br><br>We all know how it feels to be pulled in all different directions when we’re getting through our work day.<br><br>We have to-do items that pile one on top of the other and we end up getting so altogether worn out by the end of the day because of it.<br><br>But when we’re working in a full-on frenzy to do and finish and move on to All The Things, we miss out on the opportunity to engage in truly deep work that actually moves us forward in the direction we want to go.<br><br>If you’re learning something new, really make sure you’re taking the time to sit with unfamiliar concepts so that you end up retaining them more quickly than you would if you were only just half-heartedly buzzing through them in an attempt to move on to the next thing.<br><br>Resources mentioned in this episode:<ol><li>Discovering the Joy of Single-Tasking, Cup of Jo</li></ol>"
+  },
+  {
       title: 'How to Actually Finish Any Coding Side Project',
       id: 5157238,
       url: 'https://www.buzzsprout.com/1184462/5157238-lcc-8-how-to-actually-finish-any-coding-side-project.js?container_id=buzzsprout-player-5157238&player=small',
@@ -65,8 +71,6 @@ function renderListItems(list) {
 
       let html = `<section class="episode" data-key=${dataKey}><h2 style="text-align: center;">${el.title}</h2><div id="buzzsprout-player-${el.id}" class="podcast-player"></div><span>${el.description}Music credit to <a href="https://soundcloud.com/thisislegang" rel="noopener" target="_blank">Le Gang</a></span></section>
       `;
-
-
       document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
       
       dataKey++; 
@@ -80,9 +84,7 @@ window.addEventListener('load', () => {
   renderListItems(episodes);
 
   // Add individual script tags for each podcast player
-
   const episodeHtml = document.querySelectorAll('.episode');
-
   episodeHtml.forEach(el => {
 
     let i = el.getAttribute('data-key');
