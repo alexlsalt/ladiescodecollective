@@ -66,8 +66,12 @@ The podcast episodes on the Podcast page are rendered dynamically from an object
         });  
 
      }
+     
+     
+Lastly, a script source for each podcast episode needs to be created to successfully render on the Podcast page. This occurs when the page is loaded:
 
-    window.addEventListener('load', () => {
+
+     window.addEventListener('load', () => {
 
     // Render all podcast episodes
     
