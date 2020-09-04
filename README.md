@@ -58,14 +58,14 @@ The podcast episodes on the Podcast page are rendered dynamically from an object
 
       list.forEach(el => {
 
-        let html = `<section class="episode" data-key=${dataKey}><h2 style="text-align: center;">${el.title}</h2><div id="buzzsprout-player-${el.id}" class="podcast-player">   </div><span>${el.description}Music credit to <a href="https://soundcloud.com/thisislegang" rel="noopener" target="_blank">Le Gang</a></span></section>
-        `;
-        document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
+          let html = `<section class="episode" data-key=${dataKey}><h2 style="text-align: center;">${el.title}</h2><div id="buzzsprout-player-${el.id}" class="podcast-player">   </div><span>${el.description}Music credit to <a href="https://soundcloud.com/thisislegang" rel="noopener" target="_blank">Le Gang</a></span></section>
+          `;
+          document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
       
-        dataKey++; 
-    });  
+          dataKey++; 
+        });  
 
-  }
+     }
 
     window.addEventListener('load', () => {
 
