@@ -62,7 +62,8 @@ img:hover {
 
 
 .about-me img {
-  width: 60%;
+  width: 40%;
+  height: auto;
 }
 
 .next_cohort {
