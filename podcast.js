@@ -2,6 +2,12 @@
 
 const episodes = [
   {
+    title: 'Listener Q&A: Learning JS & React, Your First Job as a Junior Developer & Blogging',
+    id: 5362759,
+    url: 'https://www.buzzsprout.com/1184462/5362759-lcc-10-listener-q-a-learning-js-react-your-first-job-as-a-junior-developer-blogging.js?container_id=buzzsprout-player-5362759&player=small',
+    description: "This is another Q&A episode to answer some of the questions I’ve gotten over the past couple of weeks from podcast listeners and my email subscribers!<br><br>Join me as I answer questions involving:<ul><li>Learning JavaScript and React at the same time</li><li>The apparent shortage of developers in the job market but the lack of demand for *junior* developers and how to navigate landing your first job despite that</li><li>My recommended platforms for starting your own coding blog (even as a newbie)</li></ul>P.S. If you have questions for me that you’d like me to explore and answer on the next Q/A episode, email them to me at hey@ladiescodecollective.com!<br><br>"
+  },
+  {
     title: 'Working Slower to Achieve Your Coding Goals Faster',
     id: 5245168,
     url: 'https://www.buzzsprout.com/1184462/5245168-lcc-9-working-slower-to-achieve-your-coding-goals-faster.js?container_id=buzzsprout-player-5245168&player=small',
