@@ -2,6 +2,12 @@
 
 const episodes = [
   {
+    title: "Let's Talk About Perfectionism",
+    id: 5464798,
+    url: 'https://www.buzzsprout.com/1184462/5464798-lcc-11-let-s-talk-about-perfectionism.js?container_id=buzzsprout-player-5464798&player=small',
+    description: "Today’s topic is all about the negative effects that perfectionism can have on us as developers on our coding journeys.<br><br>There's this pressure to perform in a way where we feel the need to make it seem as though whatever we’ve built or are working on is perfect and essentially 'fault-less.'<br><br>We feel like any new project we start or new skill we’re trying to build isn’t adequate or appropriate if it doesn’t “come out of the box” in its final, most perfect stage.<br><br>Listen in for more about how to recognize and address perfectionism along the coding journey!<br><br>Resources mentioned in this episode:<ul><li>Pure React by Dave Ceddia</li></ul>"
+  },
+  {
     title: 'Listener Q&A: Learning JS & React, Your First Job as a Junior Developer & Blogging',
     id: 5362759,
     url: 'https://www.buzzsprout.com/1184462/5362759-lcc-10-listener-q-a-learning-js-react-your-first-job-as-a-junior-developer-blogging.js?container_id=buzzsprout-player-5362759&player=small',
