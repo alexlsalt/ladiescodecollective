@@ -2,6 +2,12 @@
 
 const episodes = [
   {
+    title: "'This is Hard' vs 'This is Too Hard'",
+    id: 5671681,
+    url: 'https://www.buzzsprout.com/1184462/5671681-lcc-12-this-is-hard-vs-this-is-too-hard.js?container_id=buzzsprout-player-5671681&player=small',
+    description: "Today’s topic is a fun tool for getting out of our own heads and actually getting down to work on something that we’ve been putting off because it feels too difficult or complicated or unclear.<br><br>We often tell ourselves that something is 'too hard' and this is what causes us to procrastinate, work on other things that don’t really push the needle forward, and ultimately never undertake the task even though we know that we need to in order to progress and advance in our coding journey.<br><br>Listen in for tips on this simple yet effective mindset shift!<br><br>"
+  },
+  {
     title: "Let's Talk About Perfectionism",
     id: 5464798,
     url: 'https://www.buzzsprout.com/1184462/5464798-lcc-11-let-s-talk-about-perfectionism.js?container_id=buzzsprout-player-5464798&player=small',
