@@ -2,6 +2,12 @@
 
 const episodes = [
   {
+    title: 'The Benefits of Documenting Your Coding Journey',
+    id: 5781751,
+    url: 'https://www.buzzsprout.com/1184462/5781751-lcc-13-the-benefits-of-documenting-your-coding-journey.js?container_id=buzzsprout-player-5781751&player=small',
+    description: "In this episode of The Ladies Code Collective Podcast, we're taking a deep dive into the benefits of documenting your coding journey.<br><br>Whatever your medium (blogging, podcasting, making videos/vlogs, etc), this episode will help you develop a plan to start documenting your own coding or learning journey, to stay consistent with it over time, and to have a good time while doing so.<br><br>"
+  },
+  {
     title: "'This is Hard' vs 'This is Too Hard'",
     id: 5671681,
     url: 'https://www.buzzsprout.com/1184462/5671681-lcc-12-this-is-hard-vs-this-is-too-hard.js?container_id=buzzsprout-player-5671681&player=small',
@@ -79,8 +85,10 @@ const episodes = [
       id: 4327955,
       url: 'https://www.buzzsprout.com/1184462/4327955-lcc-1-hey-nice-to-meet-ya.js?container_id=buzzsprout-player-4327955&player=small',
       description: "Welcome to The Ladies Code Collective podcast! I'm so excited to share my own personal journey with you in this first episode.<br><br>Resources mentioned in this episode:<ul><li><a href='https://www.alexmortoncreative.com' rel='noopener' target='_blank'>Alex's personal website and blog</a></li></ul><br>"
-  },
-]
+  }
+];
+
+
 
 function renderListItems(list) {
   let dataKey = 0;
