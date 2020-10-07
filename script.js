@@ -1,72 +1,65 @@
 // HEADER SLIDESHOW
 
-let num = 0;
+if (document.title === "Ladies Code Collective") {
+  let num = 0;
 
-setInterval(() => {
-  num++;
+  setInterval(() => {
+    num++;
 
-  if (num <= 4) {
-    document.querySelector(".heading_slide").src =
-      "resources/img/slide_" + num + ".png";
-  } else {
-    num = 0;
-  }
-}, 1000);
+    if (num <= 4) {
+      document.querySelector(".heading_slide").src =
+        "resources/img/slide_" + num + ".png";
+    } else {
+      num = 0;
+    }
+  }, 1000);
+}
 
 // PREVENT IMAGE DRAGGING
 
-let images = document.querySelectorAll('.image');
-images.forEach(image => {
+let images = document.querySelectorAll(".image");
+images.forEach((image) => {
   image.setAttribute("draggable", false);
 });
 
-
 // Mobile Nav functionality (hamburger icon on-click)
 
-const menuIcon = document.querySelector('.hamburger-icon');
-const exitIcon = document.querySelector('.exit-icon');
+const menuIcon = document.querySelector(".hamburger-icon");
+const exitIcon = document.querySelector(".exit-icon");
 
 function hideNavMenu() {
-  if (document.querySelector('#nav-mobile').style.display == 'flex') {
-    document.querySelector('#nav-mobile').style.display = 'none';
-    exitIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
+  if (document.querySelector("#nav-mobile").style.display == "flex") {
+    document.querySelector("#nav-mobile").style.display = "none";
+    exitIcon.style.display = "none";
+    menuIcon.style.display = "block";
   }
-};
+}
 
-menuIcon.addEventListener('click', () => {
+menuIcon.addEventListener("click", () => {
+  document.querySelector("#nav-mobile").style.display = "flex";
+  exitIcon.style.display = "block";
+  menuIcon.style.display = "none";
 
-  document.querySelector('#nav-mobile').style.display = 'flex';
-  exitIcon.style.display = 'block';
-  menuIcon.style.display = 'none';
-
-  window.addEventListener('resize', () => {
-
+  window.addEventListener("resize", () => {
     if (window.innerWidth > 545) {
-      document.querySelector('#nav-desktop').style.display = 'flex';
-      document.querySelector('#nav-mobile').style.display = 'none';
-      menuIcon.style.display = 'none';
-      exitIcon.style.display = 'none';
+      document.querySelector("#nav-desktop").style.display = "flex";
+      document.querySelector("#nav-mobile").style.display = "none";
+      menuIcon.style.display = "none";
+      exitIcon.style.display = "none";
     } else {
-      menuIcon.style.display = 'block';
-      document.querySelector('#nav-desktop').style.display = 'none';
-  
+      menuIcon.style.display = "block";
+      document.querySelector("#nav-desktop").style.display = "none";
     }
-  
   });
 });
 
-exitIcon.addEventListener('click', () => {
+exitIcon.addEventListener("click", () => {
   hideNavMenu();
 });
 
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   hideNavMenu();
 });
-
-
-
-
 
 // NAV BUTTON ACTIONS
 
