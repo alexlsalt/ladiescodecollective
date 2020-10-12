@@ -1,0 +1,22 @@
+{
+  "name": "ladies_code_collective",
+  "version": "1.0.0",
+  "description": "![Ladies Code Collective banner](resources/img/logo.png)",
+  "main": "podcast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlsalt/ladiescodecollective.git"
+  },
+  "author": "Alex Morton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlsalt/ladiescodecollective/issues"
+  },
+  "homepage": "https://github.com/alexlsalt/ladiescodecollective#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
