@@ -4,7 +4,7 @@
 
 let episodes = [];
 
-fetch(`https://www.buzzsprout.com/api/1184462/episodes.json?api_token=${process.env.ACCESS_TOKEN}`)
+fetch(`https://www.buzzsprout.com/api/1184462/episodes.json?api_token=${env.ACCESS_TOKEN}`)
   .then(res => res.json())
   .then(json =>  {
     json.forEach(el => episodes.push(el));
