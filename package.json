@@ -5,7 +5,7 @@
   "main": "podcast.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sed -i s/API_KEY_PLACEHOLDER/$ACCESS_TOKEN/g podcast.js"
+    "build": "sed -i s/PLACEHOLDER/$ACCESS_TOKEN/g podcast.js"
   },
   "repository": {
     "type": "git",
