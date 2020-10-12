@@ -3,7 +3,6 @@
 
 
 let episodes = [];
-let key = process.env.ACCESS_TOKEN;
 
 fetch(`https://www.buzzsprout.com/api/1184462/episodes.json?api_token=PLACEHOLDER`)
   .then(res => res.json())
