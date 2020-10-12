@@ -4,7 +4,8 @@
   "description": "![Ladies Code Collective banner](resources/img/logo.png)",
   "main": "podcast.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm build"
   },
   "repository": {
     "type": "git",
