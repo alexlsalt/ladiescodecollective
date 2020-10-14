@@ -52,6 +52,12 @@
 
 const episodes = [
   {
+    title: 'Shiny Object Syndrome When Learning to Code',
+    id: 5889634,
+    url: 'https://www.buzzsprout.com/1184462/5889634-lcc-14-shiny-object-syndrome-when-learning-to-code.js?container_id=buzzsprout-player-5889634&player=small',
+    description: "In this episode, we take a deep dive into 'Shiny Object Syndrome' when starting a new coding project or buying yet another online coding course.<br><br>We'll discuss some steps to help you stay focused on your current projects and courses even (and especially!) when the newness wears off and you're ready for something new despite not being quite finished with whatever you're presently working on.<br><br>"
+  },
+  {
     title: 'The Benefits of Documenting Your Coding Journey',
     id: 5781751,
     url: 'https://www.buzzsprout.com/1184462/5781751-lcc-13-the-benefits-of-documenting-your-coding-journey.js?container_id=buzzsprout-player-5781751&player=small',
