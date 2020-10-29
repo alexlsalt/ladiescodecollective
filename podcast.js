@@ -1,54 +1,38 @@
-// Update: Trying to import .env file for variables (access token)
-// Once I can do that, I'll be able to pull each podcast episode from the API and not hard-code it
+// RENDER FIVE LATEST EPISODES ON PODCAST PAGE 
 
-// PROGRESS 10/12
+ function renderListItems(list) {
+    let dataKey = 0;
 
-// let episodes = [];
-
-// fetch(`https://www.buzzsprout.com/api/1184462/episodes.json?api_token=PLACEHOLDER`)
-//   .then(res => res.json())
-//   .then(json =>  {
-//     json.forEach(el => episodes.push(el));
-//     console.log(episodes[0]);
-
-//     renderListItems(episodes);
-//     addEpisodeScripts(episodes);
-
-//   });
-
-
-
-//   function renderListItems(list) {
-//     let dataKey = 0;
-
-//     list.forEach(el => {
-//         let html = `<section class="episode" data-key=${dataKey} id=${el.id}><h2 style="text-align: center;">${el.title}</h2><div id="buzzsprout-player-${el.id}" class="podcast-player"></div><span>${el.description}</span></section>`;
+    for (let i = 0; i < 5; i++) {
+      let html = `<section class="episode" data-key=${dataKey}><h2 style="text-align: center;">${list[i].title}</h2><div id="buzzsprout-player-${list[i].id}" class="podcast-player"></div><span>${list[i].description}</span></section>`;
         
-//         document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
+        document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
   
-//         dataKey++;
-//     });  
-//   }
+        dataKey++;
+    } 
+  }
 
-//   function addEpisodeScripts(list) {
-//     const episodeHtml = document.querySelectorAll('.episode');
+  function addEpisodeScripts(list) {
+    const episodeHtml = document.querySelectorAll('.episode');
 
-//     episodeHtml.forEach(el => {
+    episodeHtml.forEach(el => {
   
-//       let i = el.getAttribute('data-key');
-//       let script = document.createElement('script');
+      let i = el.getAttribute('data-key');
+      let script = document.createElement('script');
 
-//       let srcUrl = episodes[i].audio_url.replace('mp3', `js?container_id=buzzsprout-player-${episodes[i].id}&player=small`)
-
-//       script.src = srcUrl;
+      script.src = episodes[i].url;
   
-//       el.appendChild(script);
-//     });
-//   }
-   
+      el.appendChild(script);
+    });
+  }
+
+  window.addEventListener('load', event => {
+
+    renderListItems(episodes);
+    addEpisodeScripts(episodes);
+  });
 
 
-// RENDER PODCAST EPISODES ON PODCAST PAGE
 
 const episodes = [
   {
@@ -145,35 +129,4 @@ const episodes = [
 ];
 
 
-  function renderListItems(list) {
-    let dataKey = 0;
-
-    list.forEach(el => {
-        let html = `<section class="episode" data-key=${dataKey}><h2 style="text-align: center;">${el.title}</h2><div id="buzzsprout-player-${el.id}" class="podcast-player"></div><span>${el.description}</span></section>`;
-        
-        document.querySelector('#episode-list').insertAdjacentHTML('beforeend', html);
-  
-        dataKey++;
-    });  
-  }
-
-  function addEpisodeScripts(list) {
-    const episodeHtml = document.querySelectorAll('.episode');
-
-    episodeHtml.forEach(el => {
-  
-      let i = el.getAttribute('data-key');
-      let script = document.createElement('script');
-
-      script.src = episodes[i].url;
-  
-      el.appendChild(script);
-    });
-  }
-
-  window.addEventListener('load', event => {
-
-    renderListItems(episodes);
-    addEpisodeScripts(episodes);
-  });
-
+ 
