@@ -36,6 +36,18 @@
 
 const episodes = [
   {
+    title: 'Growth Mindset vs Fixed Mindset',
+    id: 6102115,
+    url: 'https://www.buzzsprout.com/1184462/6102115-lcc-16-growth-mindset-vs-fixed-mindset.js?container_id=buzzsprout-player-6102115&player=small',
+    description: "In this episode, we discuss the benefits of keeping a growth mindset rather than a fixed mindset along our coding journeys.<br><br>We'll discuss the differences between the two mindset types and how to incorporate having a growth mindset into becoming web developers.<br><br>"
+  },
+  {
+    title: 'Listener Q&A: Career Switches, Portfolio Projects & More',
+    id: 5994604,
+    url: 'https://www.buzzsprout.com/1184462/5994604-lcc-15-listener-q-a-career-switches-portfolio-projects-more.js?container_id=buzzsprout-player-5994604&player=small',
+    description: "Join me in this episode as I answer questions involving:<br><ul><li> Deciding on a new laptop to buy for coding</li><li>Making the career switch to web development from an unrelated field</li> <li>Coming up with ideas for coding projects to add to your portfolio</li><li>Retaining knowledge and skills learned from web development courses</li></ul><br><br>"
+  },
+  {
     title: 'Shiny Object Syndrome When Learning to Code',
     id: 5889634,
     url: 'https://www.buzzsprout.com/1184462/5889634-lcc-14-shiny-object-syndrome-when-learning-to-code.js?container_id=buzzsprout-player-5889634&player=small',
